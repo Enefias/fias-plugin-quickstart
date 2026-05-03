@@ -6,15 +6,21 @@ A starter template for building plugins on the FIAS platform. Scaffolded automat
 
 1. Click **Use this template** at the top of this page → **Create a new repository**, and pick a name for your plugin (e.g. `my-plugin`).
 2. From your new repo, click **Code → Codespaces → Create codespace on main**.
-3. Wait ~2 minutes while the dev environment provisions and your plugin is scaffolded into the workspace.
-4. In the Codespace terminal, run:
+3. Wait ~2 minutes while the dev environment provisions, your plugin is scaffolded, and dependencies are installed.
+4. In the Codespace terminal, authenticate the CLI:
 
    ```sh
-   fias-dev login --manual
+   npx fias-dev login --manual
    ```
 
    This prints a URL and a short code. Open the URL in your browser, paste the code, approve, and your CLI is authenticated.
-5. Start editing files in your workspace — they're your plugin source. The scaffolder set up the project layout for you; the README it dropped in explains the project conventions.
+5. Start the dev server:
+
+   ```sh
+   npm start
+   ```
+
+   Then open the forwarded port (3000) and start editing files in your workspace — they're your plugin source. The scaffolder set up the project layout for you; the README it dropped in explains the project conventions.
 
 ## Local development (Dev Containers)
 
