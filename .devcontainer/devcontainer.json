@@ -1,7 +1,7 @@
 {
   "name": "FIAS Plugin",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "npx -y create-fias-plugin@latest --in-place",
+  "postCreateCommand": "npx -y @fias/create-fias-plugin@latest --in-place",
   "forwardPorts": [3000],
   "customizations": {
     "vscode": {

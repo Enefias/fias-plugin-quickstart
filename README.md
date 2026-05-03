@@ -27,7 +27,7 @@ Prefer to develop locally? You'll get the same scaffolded environment without le
 
 ## What's in this template
 
-- **`.devcontainer/devcontainer.json`** — Defines the dev environment. On first launch, runs `npx create-fias-plugin@latest --in-place`, which scaffolds your plugin directly into the workspace root (without overwriting this README, the LICENSE, or your `.gitignore`).
+- **`.devcontainer/devcontainer.json`** — Defines the dev environment. On first launch, runs `npx @fias/create-fias-plugin@latest --in-place`, which scaffolds your plugin directly into the workspace root (without overwriting this README, the LICENSE, or your `.gitignore`).
 - **`LICENSE`** — MIT. Update for your plugin if MIT isn't appropriate.
 - **`.gitignore`** — Sensible defaults for a Node-based project.
 
